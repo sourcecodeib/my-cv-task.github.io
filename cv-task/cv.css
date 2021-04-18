@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+.inline{
+    display: inline-block;
+    margin: 1rem 1rem 2rem;
+}
+
+.profile{
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+    border-top: 1px solid cadetblue;
+    border-bottom: 1px solid cadetblue;
+    text-align: justify;
+}
+
+.experience, .education, .refrees{
+    font-size: 1.5rem;
+    padding: 1.5rem 4rem;
+    border-top: 1px solid cadetblue;
+    text-align: justify;
+}
+
+h3{
+    margin: 1rem auto;
+    color: #5e4ae3; /* #272343; */
+}
+
+.personal{
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+}
+
+.exp, .edu{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 2em;
+}
+
+.date{margin-left: auto;}
+
+.skillset{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.skillset li{
+    font-size: 1.2rem;
+    padding: 0.3rem;
+}
+
+.class{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+@media only Screen and (max-width: 720px){
+    body{
+        font-size: 50%;
+    }
+
+    .profile{
+        padding: 1rem 2rem;
+    }
+  
+    .personal{
+        padding: 1rem 2rem;
+    }
+} 
